@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{{title}}</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href='static/style.css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+	<header>
+		<div id="top">
+			<div id="Llogo">
+				<img src="static/IMG_0867.JPG" alt="Thistle Design Group Logo">
+			</div>
+			<h1>Thistle Design Group</h1>
+			<div id="Rlogo">
+				<img src="static/IMG_0867.JPG" alt="Thistle Design Group Logo">
+			</div>
+		</div>
+  		<div id="pattern" class="pattern">
+			<a href="#menu" class="menu-link">Menu</a>
+			<nav id="menu" role="navigation">
+				<ul>
+					<li><a id="link1" href="index.html">Home</a></li>
+					<li><a id="link2" href="events.html">Events</a></li>
+					<li><a id="link3" href="design.html">Design</a></li>
+					<li><a id="link4" href="before-after.html">Before and After</a></li>
+					<li><a id="link5" href="about.html">About</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	{% block content %}
+	Inique content for each page here
+	{% endblock %}
+
+	<footer>
+		<div class="footer">
+			<div id="num">
+				<p>(586)-206-1521</p>
+			</div>
+				<a id="address" href="https://www.google.com/maps/place/170+Beuland+St,+Mt+Clemens,+MI+48043/@42.590364,-82.8900526,17z/data=!3m1!4b1!4m2!3m1!1s0x88252093711f7747:0xa625cff06d262d06"><p>170 Beuland St.</p>
+					<p>Mt. Clemens, MI 48043</p></a>
+		</div>
+		<a id='icon' href="https://www.facebook.com/thistledesigngroup1/?fref=ts">Icon</a>
+	</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="static/actions.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>
