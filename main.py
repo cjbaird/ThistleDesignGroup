@@ -36,10 +36,10 @@ class AboutHandler(webapp2.RequestHandler):
         self.response.write(template.render({'title': 'About'}))
             
 app = webapp2.WSGIApplication([
-    ('/', IndexHandler),
-    ('/index.html', IndexHandler),
-    ('/events.html', EventsHandler),
-    ('/design.html', DesignHandler),
-    ('/before-after.html', TransitionHandler),
-    ('/about.html', AboutHandler)
+    ('/templates/', IndexHandler),
+    ('/templates/index.html', IndexHandler),
+    ('/templates/events.html', EventsHandler),
+    ('/templates/design.html', DesignHandler),
+    ('/templates/before-after.html', TransitionHandler),
+    ('/templates/about.html', AboutHandler)
 ], debug=True)
