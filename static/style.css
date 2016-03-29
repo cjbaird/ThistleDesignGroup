@@ -90,21 +90,21 @@ a#icon{
 	margin-bottom: 15%;
 }
 
-#events p{
+.events p{
 	text-align: center;
 	font-size: 120%;
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
 
-#events img{
+.events img{
 	border-width: 4px;
 	border-color: #AA5DCE;
 	border-style: solid none;
 	border-radius: 2%;
 }
 
-#events #portrait > img{
+.events #portrait > img{
 	height: 60%;
 }
 
@@ -112,16 +112,25 @@ a#icon{
 	height: 350px;
 	width: 90%;
 	margin: 5%;
+	margin-bottom: 0;
+	margin-top: 0;
 }
 
-#design p{
+#videocaption {
+	margin-top: 5%;
+	font-size: 110%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.design p{
 	text-align: center;
 	font-size: 120%;
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
 
-#design img{
+.design img{
 	border-width: 4px;
 	border-color: #AA5DCE;
 	border-style: solid none;
@@ -270,21 +279,18 @@ a.menu-link {
 
 	footer{
 		border-radius: 7%;
+		padding-top: 2%;
 	}
 
 	div.footer{
-		width: 65%;
+		width: 100%;
 		float: none;
-		margin-left: 31%;
+		text-align: center;
 		margin-bottom: 0px;
 	}
 
 	div.about{
 		height:90%;
-	}
-
-	#num p{
-		margin-left: 18%;
 	}
 
 	#address p{
@@ -312,19 +318,6 @@ a.menu-link {
 	#text p{
 		font-size: 150%;
 	}
-	#map{
-		width: 600px;
-		height: 500px;
-		margin-right: 5%;
-	}
-
-
-
-
-
-
-
-
 	a.menu-link {
 	   display: none;
 	}
@@ -343,4 +336,48 @@ a.menu-link {
 	nav[role=navigation] li a {
 		border: 0;
 	}
+}
+
+@media screen and (min-width: 1100px) {
+	nav[role=navigation] ul {
+		border-top: 3px solid #808080;
+	}
+	nav[role=navigation] li a {
+		padding: .4%;
+		border-bottom: 3px solid #808080;
+		text-align: center;
+		font-size: 120%;
+	}
+	nav li {
+		display: block;
+		width:100%;
+		float: left;
+	}
+	#Rlogo > img {
+		width: 10%;
+		height: 10%;
+	}
+	#Llogo > img {
+		width:10%;
+		height:10%;
+	}
+	h1{
+		font-size: 400%;
+	}
+	footer{
+		padding-top:1%;
+		border-radius: 0;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
 }
