@@ -289,10 +289,6 @@ a.menu-link {
 		margin-bottom: 0px;
 	}
 
-	div.about{
-		height:90%;
-	}
-
 	#address p{
 		display: inline;
 	}
@@ -317,6 +313,283 @@ a.menu-link {
 
 	#text p{
 		font-size: 150%;
+	}
+		#tableplaces {
+		width: 34%;
+		height: 23%;
+		float: left;
+	}
+
+	#backyard {
+		width: 45%;
+		height: 28%;
+		float: right;
+	}
+
+	#graduation {
+		margin-top: 65%;
+	}
+
+	.events p{
+		font-size: 180%;
+	}
+
+	#video {
+		height: 475px;
+	}
+
+	#videocaption {
+		font-size: 130%;
+	}
+
+	#dessert {
+		width: 40%;
+		height: 26%;
+		float: left;
+		margin-left: 4%;
+		margin-top: 0%;
+	}
+
+	#centerpiece {
+		width: 40%;
+		height: 29%;
+		float: right;
+		margin-top: 0%;
+	}
+
+	#cart {
+		width: 40%;
+		height: 29%;
+		float: right;
+		margin-right: 30%;
+		margin-top: 0%;
+	}
+
+	#wedding {
+		margin-top: 125%;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-bottom: 2%;
+	}
+
+	#pictures {
+		width: 40%;
+		height: 25%;
+		float: left;
+	}
+
+	#boquet {
+		width: 40%;
+		height: 25%;
+		float: right;
+	}
+
+	#weddingtable {
+		width: 40%;
+		height: 25%;
+		float: left;
+	}
+
+	#butterfly {
+		width: 40%;
+		height: 25%;
+		float: right;
+	}
+
+	#hall {
+		width: 40%;
+		height: 25%;
+		float: right;
+	}
+
+	.design p{
+		font-size: 200%;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-bottom: 2%;
+		margin-top: 3%;
+	}
+
+	#corner {
+		width: 45%;
+		height: 10%;
+		margin-left: 4%;
+		float: left;
+	}
+
+	#full {
+		width: 45%;
+		height: 10%;
+		margin-right: 4%;
+		float: right;
+	}
+
+	#sunroom {
+		width:45%;
+		height: 30%;
+		margin-left: 3%;
+		float: left;
+	}
+
+	#front {
+		width:45%;
+		height: 30%;
+		margin-right:3%;
+		float:right;
+	}
+
+	#space {
+		margin-top: 65%;
+	}
+
+	#bedroom {
+		font-size: 160%;
+	}
+
+	#livingroom {
+		font-size: 160%;
+	}
+
+	#BeforeRightCorner {
+		width: 54%;
+		height: 30%;
+		float: left;
+		margin-right: 0%;
+	}
+
+	#AfterRightCorner {
+		width: 30%;
+		height: 18%;
+		float: right;
+	}
+
+	.Before p{
+		width: 50%;
+		margin-right:1%;
+		display:inline-block;
+		float: left;
+		margin-top: 0%;
+		margin-bottom: 0%;
+	}
+
+	.After p{
+		width: 48%;
+		display: inline-block;
+		margin-top: 0%;
+		margin-bottom: 0%;
+	}
+
+	#BeforeRightWall {
+		width: 55%;
+		height: 33%;
+		float: left;
+		margin-left: 22%;
+	}
+
+	#AfterRightWall {
+		margin-top: 0%;
+		width: 53%;
+		height: 27%;
+		float: left;
+	}
+
+	#AfterRightHead {
+		width: 30%;
+		height: 23%;
+		float: right;
+		margin-left: 0%;
+		margin-top: 0%;
+	}
+
+	#bef {
+		width: 100%;
+		margin-bottom: 0%;
+	}
+
+	#aft {
+		margin-bottom:4%;
+		width: 100%;
+		font-size: 250%;
+		text-align: center;
+	}
+
+	#BeforeLeftCorner{
+		width: 44%;
+		height: 25%;
+		float: left;
+		margin-left:4%;
+		margin-right:2%;
+	}
+
+	#AfterLeftCorner{
+		width: 44%;
+		height: 25%;
+		float: right;
+		margin-right:4%;
+		margin-left: 2%;
+	}
+	#before {
+		float:left;
+		
+	}
+
+	#BeforeBackWall {
+		width:44%;
+		height: 25%;
+		float:left;
+		margin-left:4%;
+		margin-right:2%;
+	}
+
+	#AfterBackWall {
+		width:44%;
+		height:25%;
+		float:right;
+		margin-right:4%;
+		margin-left:2%;
+	}
+	#BeforeLeftWall {
+		width: 55%;
+		height: 25%;
+		float:left;
+		margin-right:2%;
+		margin-bottom:34.67px;
+	}
+	#AfterLeftWall {
+		width: 31%;
+		height: 25%;
+		float:right;
+		margin-left:2%;
+		margin-bottom:30px;
+	}
+	#livingroom {
+		text-align: center;
+		margin:4%;
+	}
+
+	#BeforeFamilyBack {
+		width: 40%;
+		height: 25%;
+		float: left;
+	}
+
+	#BeforeFamilyFront {
+		width: 40%;
+		height: 25%;
+		float:right;
+	}
+
+	#beforefam {
+		width: 100%;
+	}
+
+	#afterfam {
+		width:100%;
+	}
+	#map{
+		width: 600px;
+		height: 500px;
+		margin-right: 5%;
 	}
 	a.menu-link {
 	   display: none;
