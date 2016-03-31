@@ -10,20 +10,21 @@
 
 		<p>
 		<form method="POST">
-			<p>Name: <input type="text" name="name" id="name"/></p>
-			<p>Email: <input type="email"name="email" id="email"/></p>
-			<p>Message: <input type='text' name='message' id="message"/></p>
+			<p><label>Name: <input type="text" name="name" id="name"/></label></p>
+			<p><label>Email: <input type="email"name="email" id="email"/></label></p>
+			<p><label>Message: <input type='text' name='message' id="message"/></label></p>
 			<p><input type="submit" id="submit" value="Submit"></p>
 		</form>
 		</p>
 
-		<div id="map"></div>
+		<div id="map" alt="Our office is located South of Cass Ave. West of Gratiot East of Groesbeck and just North of the Clinton River."></div>
 			<script>
 				function initMap() {
-					var mapDiv = document.getElementById('map');
-					var map = new google.maps.Map(mapDiv, {center: {lat: 42.590327, lng: -82.887875}, zoom: 13});
+					var myLatLng = {lat: 42.590327, lng: -82.887875};
+					var map = new google.maps.Map(document.getElementById('map'), {center: myLatLng, zoom: 13});
 
-					var marker = new google.maps.Marker({ 
+					var marker = new google.maps.Marker({
+						position: myLatLng, 
 						map: map, 
 						title: 'Hello World!'
 					});

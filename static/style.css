@@ -200,6 +200,9 @@ a#icon{
 	background-color: #CCC;
 	margin: 7%;
 }
+label {
+	color:white;
+}
 a.menu-link {
   	    float: right;
 		display: block;
@@ -566,6 +569,7 @@ a.menu-link {
 	#livingroom {
 		text-align: center;
 		margin:4%;
+		margin-top: 0px;
 	}
 
 	#BeforeFamilyBack {
@@ -621,6 +625,9 @@ a.menu-link {
 	}
 	.Before img {
 		border-style: solid;
+	}
+	#break {
+		margin:0px;
 	}
 }
 
