@@ -16,13 +16,13 @@ $(document).ready(main);
 
 		<form action="MAILTO:cjbaird@umich.edu" method="POST">
 			<label>Name: <input type="text" name="name" id="name"/></label>
-			<label>Email: <input type="email"name="email" id="email"/></label>
+			<label>Email: <input type="email" name="email" id="email"/></label>
 			<label>Message: <input type='text' name='message' id="message"/></label>
 			<p><input type="submit" id="submit" value="Submit"></p>
 			<p><input type="reset" id="reset" value="Reset"></p>
 		</form>
 
-		<div id="map" alt="Our office is located South of Cass Ave. West of Gratiot East of Groesbeck and just North of the Clinton River."></div>
+		<div id="map"></div>
 			<script>
 				function initMap() {
 					var myLatLng = {lat: 42.590327, lng: -82.887875};
@@ -35,6 +35,8 @@ $(document).ready(main);
 					});
 				}
 			</script>
-			<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
+			<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer>
+			</script>
+	</div>
 
 {% endblock %}
