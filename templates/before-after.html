@@ -1,9 +1,15 @@
 {%extends "templates/base.html" %}
 
 {% block content %}
-<style type="text/css">
-#link4:visited {color:#B439C1;text-decoration:none;} 
-</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script>
+var main = function() {
+
+      $('#link4').addClass('current_link');
+}
+$(document).ready(main);
+
+</script>
 	<div class="bnf">
 		<p id="bedroom">This relaxing bedroom was fully redone with a classic and warm design to create a softer and larger feel to the whole room. Here are some before and after pictures of the redesign.</p>
 		<div class="Before">

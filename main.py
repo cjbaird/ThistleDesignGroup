@@ -34,6 +34,17 @@ class AboutHandler(webapp2.RequestHandler):
         logging.info("GET")
         template = JINJA_ENVIRONMENT.get_template('templates/about.html')
         self.response.write(template.render({'title': 'About'}))
+    def post(self):
+        name = self.request.get('name')
+        logging.info("Post Name= "+name)
+        email = self.request.get('email')
+        logging.info("Post Email= "+email)
+        message = self.request.get('message')
+        logging.info("Post Message= "+message)
+        template =  JINJA_ENVIRONMENT.get_template('templates/about.html')
+        self.response.write(template.render({'title': 'About'}))
+        
+
             
 app = webapp2.WSGIApplication([
     ('/', IndexHandler),

@@ -1,21 +1,26 @@
 {%extends "templates/base.html" %}
 
 {% block content %}
-<style type="text/css">
-#link5:visited {color:#B439C1;text-decoration:none;} 
-</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script>
+var main = function() {
+
+      $('#link5').addClass('current_link');
+}
+$(document).ready(main);
+
+</script>
 	<div class="about">
 		<h2>Joel Baird</h2>
 		<p>Joel has been doing both landscaping and interior design since 2008. He works out of Mt. Clemens and mainly does work on the east side of Michigan. He has a passion for design and heads the entire process from beginning to end. Joel has worked with Loretta Crenshaw on a Detroit Showhouse room each of the past 3 years receiving much praise from the community for each of those projects. Recently, he has began to create numerous events including weddings, graduation parties and dinners. He currently works for Krauseneck Carpets in Grosse Pointe Farms and Mt. Clemens. If you like what you've seen feel free to give Joel a call or fill out the information below and set up an appointment! </p>
 
-		<p>
-		<form method="POST">
-			<p><label>Name: <input type="text" name="name" id="name"/></label></p>
-			<p><label>Email: <input type="email"name="email" id="email"/></label></p>
-			<p><label>Message: <input type='text' name='message' id="message"/></label></p>
+		<form action="MAILTO:cjbaird@umich.edu" method="POST">
+			<label>Name: <input type="text" name="name" id="name"/></label>
+			<label>Email: <input type="email"name="email" id="email"/></label>
+			<label>Message: <input type='text' name='message' id="message"/></label>
 			<p><input type="submit" id="submit" value="Submit"></p>
+			<p><input type="reset" id="reset" value="Reset"></p>
 		</form>
-		</p>
 
 		<div id="map" alt="Our office is located South of Cass Ave. West of Gratiot East of Groesbeck and just North of the Clinton River."></div>
 			<script>

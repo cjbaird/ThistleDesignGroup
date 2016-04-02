@@ -1,9 +1,15 @@
 {%extends "templates/base.html" %}
 
 {% block content %}
-<style type="text/css">
-#link3:visited {color:#B439C1;text-decoration:none;} 
-</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script>
+var main = function() {
+
+      $('#link3').addClass('current_link');
+}
+$(document).ready(main);
+
+</script>
 	<div class="design">
 		<p id="study" >This cozy and rustic library was completely redesigned. It was given all new furniture, paint, and paintings.</p>
 		<div id="corner">

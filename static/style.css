@@ -5,8 +5,9 @@ img{
 }
 
 body{
-	background-image: url(black.jpg);
-	background-size: 100%;
+	background-color: #191717;
+	/*background-image: url(black.jpg);
+	background-size: 100%;*/
 }
 
 #Llogo > img{
@@ -193,6 +194,12 @@ a#icon{
 	border:2px solid #336600;
 	padding:3px;
 }
+#reset {
+	color:white;
+	background-color:green;
+	border:2px solid #336600;
+	padding:3px;
+}
 
 #map{
 	width: 300px;
@@ -202,6 +209,25 @@ a#icon{
 }
 label {
 	color:white;
+	margin-left: 5%;
+	width:100%;
+}
+#form {
+	color:white;
+	margin-top: 5%;
+}
+#name {
+	color:black;
+}
+#email {
+	color:black;
+}
+#message {
+	color:black;
+}
+.current_link{
+	color:#B439C1;
+	text-decoration:none;
 }
 a.menu-link {
   	    float: right;
@@ -595,6 +621,9 @@ a.menu-link {
 		width: 600px;
 		height: 500px;
 		margin-right: 5%;
+	}
+	label {
+		margin-bottom:2%;
 	}
 	a.menu-link {
 	   display: none;

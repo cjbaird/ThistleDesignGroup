@@ -1,9 +1,15 @@
 {%extends "templates/base.html" %}
 
 {% block content %}
-<style type="text/css">
-#link2:visited {color:#B439C1;text-decoration:none;} 
-</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script>
+var main = function() {
+
+      $('#link2').addClass('current_link');
+}
+$(document).ready(main);
+
+</script>
 <p id="videocaption">
 	&nbsp; &nbsp; &nbsp;&nbsp;This wedding was designed and put on by Thistle Design Group from beginning to end. More pictures at the bottom of the page.</p>
 <iframe id="video" src="https://www.youtube.com/embed/VtDhh3emVAU" frameborder="0" allowfullscreen></iframe>
